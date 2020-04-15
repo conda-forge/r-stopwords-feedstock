@@ -7,7 +7,6 @@ package:
   version: {{ version|replace("-", "_") }}
 
 source:
-  fn: stopwords_{{ version }}.tar.gz
   url:
     - {{ cran_mirror }}/src/contrib/stopwords_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/stopwords/stopwords_{{ version }}.tar.gz
@@ -27,9 +26,13 @@ requirements:
   host:
     - r-base
     - r-isocodes
+    - r-usethis
+    - r-desc
   run:
     - r-base
     - r-isocodes
+    - r-usethis
+    - r-desc
 
 test:
   commands:
@@ -46,10 +49,4 @@ about:
 extra:
   recipe-maintainers:
     - conda-forge/r
-    - johanneskoester
-    - bgruening
-    - daler
-    - jdblischak
-    - cbrueffer
-    - dbast
     - stevierene82
