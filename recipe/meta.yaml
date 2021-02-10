@@ -1,4 +1,4 @@
-{% set version = "2.1" %}
+{% set version = "2.2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/stopwords_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/stopwords/stopwords_{{ version }}.tar.gz
-  sha256: 08c77afd24643320735618002ef9a7e2ecea0e7b9f71d6e2994cf623f54357bc
+  sha256: b66bccc786200c6ec600be8340e2801bbc7ee787fa5c5a15bc201306861706b9
 
 build:
   noarch: generic
