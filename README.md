@@ -1,11 +1,11 @@
-About r-stopwords
-=================
+About r-stopwords-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-stopwords-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/davnn/stopwords
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-stopwords-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides multiple sources of stopwords, for use in text analysis and natural language processing.
 
